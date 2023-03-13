@@ -1,0 +1,53 @@
+# frozen_string_literal: true
+
+{{#generated_src_warning}}
+{{generated_src_warning}}
+{{/generated_src_warning}}
+module {{module_name}}
+  module Types
+    {{#structures}}
+
+    {{> documentation}}
+    {{#empty?}}
+    class {{class_name}} < Aws::EmptyStructure; end
+    {{/empty?}}
+    {{^empty?}}
+    class {{class_name}} < Struct.new(
+      {{#members}}
+      :{{member_name}}{{^last}},{{/last}}{{#last}}){{/last}}
+      {{/members}}
+      SENSITIVE = {{sensitive_params}}
+      include Aws::Structure
+      {{#union?}}
+      include Aws::Structure::Union
+
+      {{#members}}
+      class {{member_class_name}} < {{class_name}}; end
+      {{/members}}
+      {{/union?}}
+    end
+    {{/empty?}}
+    {{/structures}}
+    {{#eventstreams}}
+
+    {{> documentation}}
+    class {{class_name}} < Enumerator
+
+      def event_types
+        {{#empty?}}
+        []
+        {{/empty?}}
+        {{^empty?}}
+        [
+        {{#types}}
+          :{{member_name}}{{^last}},{{/last}}
+        {{/types}}
+        ]
+        {{/empty?}}
+      end
+
+    end
+    {{/eventstreams}}
+
+  end
+end

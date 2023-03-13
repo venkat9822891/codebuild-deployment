@@ -1,0 +1,1137 @@
+{
+  "ACM": {
+    "models": "acm/2015-12-08"
+  },
+  "ACMPCA": {
+    "models": "acm-pca/2017-08-22"
+  },
+  "APIGateway": {
+    "models": "apigateway/2015-07-09",
+    "addPlugins": [
+      "Aws::APIGateway::Plugins::ApplyContentTypeHeader"
+    ]
+  },
+  "ARCZonalShift": {
+    "models": "arc-zonal-shift/2022-10-30"
+  },
+  "AccessAnalyzer": {
+    "models": "accessanalyzer/2019-11-01"
+  },
+  "Account": {
+    "models": "account/2021-02-01"
+  },
+  "AlexaForBusiness": {
+    "models": "alexaforbusiness/2017-11-09"
+  },
+  "Amplify": {
+    "models": "amplify/2017-07-25"
+  },
+  "AmplifyBackend": {
+    "models": "amplifybackend/2020-08-11"
+  },
+  "AmplifyUIBuilder": {
+    "models": "amplifyuibuilder/2021-08-11"
+  },
+  "ApiGatewayManagementApi": {
+    "models": "apigatewaymanagementapi/2018-11-29"
+  },
+  "ApiGatewayV2": {
+    "models": "apigatewayv2/2018-11-29"
+  },
+  "AppConfig": {
+    "models": "appconfig/2019-10-09"
+  },
+  "AppConfigData": {
+    "models": "appconfigdata/2021-11-11"
+  },
+  "AppIntegrationsService": {
+    "models": "appintegrations/2020-07-29"
+  },
+  "AppMesh": {
+    "models": "appmesh/2019-01-25"
+  },
+  "AppRegistry": {
+    "models": "servicecatalog-appregistry/2020-06-24"
+  },
+  "AppRunner": {
+    "models": "apprunner/2020-05-15"
+  },
+  "AppStream": {
+    "models": "appstream/2016-12-01"
+  },
+  "AppSync": {
+    "models": "appsync/2017-07-25"
+  },
+  "Appflow": {
+    "models": "appflow/2020-08-23"
+  },
+  "ApplicationAutoScaling": {
+    "models": "application-autoscaling/2016-02-06",
+    "partitionsKey": "application-autoscaling"
+  },
+  "ApplicationCostProfiler": {
+    "models": "applicationcostprofiler/2020-09-10"
+  },
+  "ApplicationDiscoveryService": {
+    "models": "discovery/2015-11-01"
+  },
+  "ApplicationInsights": {
+    "models": "application-insights/2018-11-25"
+  },
+  "Athena": {
+    "models": "athena/2017-05-18"
+  },
+  "AuditManager": {
+    "models": "auditmanager/2017-07-25"
+  },
+  "AugmentedAIRuntime": {
+    "models": "sagemaker-a2i-runtime/2019-11-07"
+  },
+  "AutoScaling": {
+    "models": "autoscaling/2011-01-01"
+  },
+  "AutoScalingPlans": {
+    "models": "autoscaling-plans/2018-01-06"
+  },
+  "Backup": {
+    "models": "backup/2018-11-15"
+  },
+  "BackupGateway": {
+    "models": "backup-gateway/2021-01-01"
+  },
+  "BackupStorage": {
+    "models": "backupstorage/2018-04-10"
+  },
+  "Batch": {
+    "models": "batch/2016-08-10"
+  },
+  "BillingConductor": {
+    "models": "billingconductor/2021-07-30"
+  },
+  "Braket": {
+    "models": "braket/2019-09-01"
+  },
+  "Budgets": {
+    "models": "budgets/2016-10-20"
+  },
+  "Chime": {
+    "models": "chime/2018-05-01"
+  },
+  "ChimeSDKIdentity": {
+    "models": "chime-sdk-identity/2021-04-20"
+  },
+  "ChimeSDKMediaPipelines": {
+    "models": "chime-sdk-media-pipelines/2021-07-15"
+  },
+  "ChimeSDKMeetings": {
+    "models": "chime-sdk-meetings/2021-07-15"
+  },
+  "ChimeSDKMessaging": {
+    "models": "chime-sdk-messaging/2021-05-15"
+  },
+  "ChimeSDKVoice": {
+    "models": "chime-sdk-voice/2022-08-03"
+  },
+  "CleanRooms": {
+    "models": "cleanrooms/2022-02-17"
+  },
+  "Cloud9": {
+    "models": "cloud9/2017-09-23"
+  },
+  "CloudControlApi": {
+    "models": "cloudcontrol/2021-09-30"
+  },
+  "CloudDirectory": {
+    "models": "clouddirectory/2017-01-11"
+  },
+  "CloudFormation": {
+    "models": "cloudformation/2010-05-15"
+  },
+  "CloudFront": {
+    "models": "cloudfront/2020-05-31"
+  },
+  "CloudHSM": {
+    "models": "cloudhsm/2014-05-30"
+  },
+  "CloudHSMV2": {
+    "models": "cloudhsmv2/2017-04-28"
+  },
+  "CloudSearch": {
+    "models": "cloudsearch/2013-01-01"
+  },
+  "CloudSearchDomain": {
+    "models": "cloudsearchdomain/2013-01-01",
+    "partitionsKey": null,
+    "legacyEndpoints": true,
+    "addPlugins": [
+      "Aws::CloudSearchDomain::Plugins::ConditionalSigning",
+      "Aws::CloudSearchDomain::Plugins::SwitchToPost"
+    ],
+    "removePlugins": [
+      "Aws::Plugins::RegionalEndpoint",
+      "Aws::Plugins::EndpointDiscovery",
+      "Aws::Plugins::EndpointPattern"
+    ]
+  },
+  "CloudTrail": {
+    "models": "cloudtrail/2013-11-01"
+  },
+  "CloudTrailData": {
+    "models": "cloudtrail-data/2021-08-11"
+  },
+  "CloudWatch": {
+    "models": "monitoring/2010-08-01"
+  },
+  "CloudWatchEvents": {
+    "models": "events/2015-10-07"
+  },
+  "CloudWatchEvidently": {
+    "models": "evidently/2021-02-01"
+  },
+  "CloudWatchLogs": {
+    "models": "logs/2014-03-28"
+  },
+  "CloudWatchRUM": {
+    "models": "rum/2018-05-10"
+  },
+  "CodeArtifact": {
+    "models": "codeartifact/2018-09-22"
+  },
+  "CodeBuild": {
+    "models": "codebuild/2016-10-06"
+  },
+  "CodeCatalyst": {
+    "models": "codecatalyst/2022-09-28"
+  },
+  "CodeCommit": {
+    "models": "codecommit/2015-04-13"
+  },
+  "CodeDeploy": {
+    "models": "codedeploy/2014-10-06"
+  },
+  "CodeGuruProfiler": {
+    "models": "codeguruprofiler/2019-07-18"
+  },
+  "CodeGuruReviewer": {
+    "models": "codeguru-reviewer/2019-09-19"
+  },
+  "CodePipeline": {
+    "models": "codepipeline/2015-07-09"
+  },
+  "CodeStar": {
+    "models": "codestar/2017-04-19"
+  },
+  "CodeStarNotifications": {
+    "models": "codestar-notifications/2019-10-15"
+  },
+  "CodeStarconnections": {
+    "models": "codestar-connections/2019-12-01"
+  },
+  "CognitoIdentity": {
+    "models": "cognito-identity/2014-06-30"
+  },
+  "CognitoIdentityProvider": {
+    "models": "cognito-idp/2016-04-18"
+  },
+  "CognitoSync": {
+    "models": "cognito-sync/2014-06-30"
+  },
+  "Comprehend": {
+    "models": "comprehend/2017-11-27"
+  },
+  "ComprehendMedical": {
+    "models": "comprehendmedical/2018-10-30"
+  },
+  "ComputeOptimizer": {
+    "models": "compute-optimizer/2019-11-01"
+  },
+  "ConfigService": {
+    "models": "config/2014-11-12"
+  },
+  "Connect": {
+    "models": "connect/2017-08-08"
+  },
+  "ConnectCampaignService": {
+    "models": "connectcampaigns/2021-01-30"
+  },
+  "ConnectCases": {
+    "models": "connectcases/2022-10-03"
+  },
+  "ConnectContactLens": {
+    "models": "connect-contact-lens/2020-08-21"
+  },
+  "ConnectParticipant": {
+    "models": "connectparticipant/2018-09-07"
+  },
+  "ConnectWisdomService": {
+    "models": "wisdom/2020-10-19"
+  },
+  "ControlTower": {
+    "models": "controltower/2018-05-10"
+  },
+  "CostExplorer": {
+    "models": "ce/2017-10-25"
+  },
+  "CostandUsageReportService": {
+    "models": "cur/2017-01-06"
+  },
+  "CustomerProfiles": {
+    "models": "customer-profiles/2020-08-15"
+  },
+  "DAX": {
+    "models": "dax/2017-04-19"
+  },
+  "DLM": {
+    "models": "dlm/2018-01-12"
+  },
+  "DataExchange": {
+    "models": "dataexchange/2017-07-25"
+  },
+  "DataPipeline": {
+    "models": "datapipeline/2012-10-29"
+  },
+  "DataSync": {
+    "models": "datasync/2018-11-09"
+  },
+  "DatabaseMigrationService": {
+    "models": "dms/2016-01-01"
+  },
+  "Detective": {
+    "models": "detective/2018-10-26"
+  },
+  "DevOpsGuru": {
+    "models": "devops-guru/2020-12-01"
+  },
+  "DeviceFarm": {
+    "models": "devicefarm/2015-06-23"
+  },
+  "DirectConnect": {
+    "models": "directconnect/2012-10-25"
+  },
+  "DirectoryService": {
+    "models": "ds/2015-04-16"
+  },
+  "DocDB": {
+    "models": "docdb/2014-10-31",
+    "addPlugins": [
+      "Aws::DocDB::Plugins::CrossRegionCopying"
+    ]
+  },
+  "DocDBElastic": {
+    "models": "docdb-elastic/2022-11-28"
+  },
+  "Drs": {
+    "models": "drs/2020-02-26"
+  },
+  "DynamoDB": {
+    "models": "dynamodb/2012-08-10",
+    "addPlugins": [
+      "Aws::DynamoDB::Plugins::ExtendedRetries",
+      "Aws::DynamoDB::Plugins::SimpleAttributes",
+      "Aws::DynamoDB::Plugins::CRC32Validation"
+    ]
+  },
+  "DynamoDBStreams": {
+    "models": "streams.dynamodb/2012-08-10",
+    "addPlugins": [
+      "Aws::DynamoDBStreams::Plugins::SimpleAttributes"
+    ]
+  },
+  "EBS": {
+    "models": "ebs/2019-11-02"
+  },
+  "EC2": {
+    "models": "ec2/2016-11-15",
+    "addPlugins": [
+      "Aws::EC2::Plugins::CopyEncryptedSnapshot",
+      "Aws::EC2::Plugins::RegionValidation"
+    ],
+    "dependencies": {
+      "aws-sigv4": "~> 1.0"
+    }
+  },
+  "EC2InstanceConnect": {
+    "models": "ec2-instance-connect/2018-04-02"
+  },
+  "ECR": {
+    "models": "ecr/2015-09-21"
+  },
+  "ECRPublic": {
+    "models": "ecr-public/2020-10-30"
+  },
+  "ECS": {
+    "models": "ecs/2014-11-13"
+  },
+  "EFS": {
+    "models": "elasticfilesystem/2015-02-01"
+  },
+  "EKS": {
+    "models": "eks/2017-11-01"
+  },
+  "EMR": {
+    "models": "elasticmapreduce/2009-03-31"
+  },
+  "EMRContainers": {
+    "models": "emr-containers/2020-10-01"
+  },
+  "EMRServerless": {
+    "models": "emr-serverless/2021-07-13"
+  },
+  "ElastiCache": {
+    "models": "elasticache/2015-02-02"
+  },
+  "ElasticBeanstalk": {
+    "models": "elasticbeanstalk/2010-12-01"
+  },
+  "ElasticInference": {
+    "models": "elastic-inference/2017-07-25"
+  },
+  "ElasticLoadBalancing": {
+    "models": "elasticloadbalancing/2012-06-01"
+  },
+  "ElasticLoadBalancingV2": {
+    "models": "elasticloadbalancingv2/2015-12-01"
+  },
+  "ElasticTranscoder": {
+    "models": "elastictranscoder/2012-09-25"
+  },
+  "ElasticsearchService": {
+    "models": "es/2015-01-01"
+  },
+  "EventBridge": {
+    "models": "eventbridge/2015-10-07"
+  },
+  "FIS": {
+    "models": "fis/2020-12-01"
+  },
+  "FMS": {
+    "models": "fms/2018-01-01"
+  },
+  "FSx": {
+    "models": "fsx/2018-03-01"
+  },
+  "FinSpaceData": {
+    "models": "finspace-data/2020-07-13",
+    "addPlugins": [
+      "Aws::FinSpaceData::Plugins::ContentType"
+    ]
+  },
+  "Finspace": {
+    "models": "finspace/2021-03-12",
+    "addPlugins": [
+      "Aws::Finspace::Plugins::ContentType"
+    ]
+  },
+  "Firehose": {
+    "models": "firehose/2015-08-04"
+  },
+  "ForecastQueryService": {
+    "models": "forecastquery/2018-06-26"
+  },
+  "ForecastService": {
+    "models": "forecast/2018-06-26"
+  },
+  "FraudDetector": {
+    "models": "frauddetector/2019-11-15"
+  },
+  "GameLift": {
+    "models": "gamelift/2015-10-01"
+  },
+  "GameSparks": {
+    "models": "gamesparks/2021-08-17"
+  },
+  "Glacier": {
+    "models": "glacier/2012-06-01",
+    "addPlugins": [
+      "Aws::Glacier::Plugins::AccountId",
+      "Aws::Glacier::Plugins::ApiVersion",
+      "Aws::Glacier::Plugins::Checksums"
+    ]
+  },
+  "GlobalAccelerator": {
+    "models": "globalaccelerator/2018-08-08"
+  },
+  "Glue": {
+    "models": "glue/2017-03-31"
+  },
+  "GlueDataBrew": {
+    "models": "databrew/2017-07-25"
+  },
+  "Greengrass": {
+    "models": "greengrass/2017-06-07"
+  },
+  "GreengrassV2": {
+    "models": "greengrassv2/2020-11-30"
+  },
+  "GroundStation": {
+    "models": "groundstation/2019-05-23"
+  },
+  "GuardDuty": {
+    "models": "guardduty/2017-11-28"
+  },
+  "Health": {
+    "models": "health/2016-08-04"
+  },
+  "HealthLake": {
+    "models": "healthlake/2017-07-01"
+  },
+  "Honeycode": {
+    "models": "honeycode/2020-03-01"
+  },
+  "IAM": {
+    "models": "iam/2010-05-08"
+  },
+  "IVS": {
+    "models": "ivs/2020-07-14"
+  },
+  "IdentityStore": {
+    "models": "identitystore/2020-06-15"
+  },
+  "Imagebuilder": {
+    "models": "imagebuilder/2019-12-02"
+  },
+  "ImportExport": {
+    "models": "importexport/2010-06-01"
+  },
+  "Inspector": {
+    "models": "inspector/2016-02-16"
+  },
+  "Inspector2": {
+    "models": "inspector2/2020-06-08"
+  },
+  "InternetMonitor": {
+    "models": "internetmonitor/2021-06-03"
+  },
+  "IoT": {
+    "models": "iot/2015-05-28"
+  },
+  "IoT1ClickDevicesService": {
+    "models": "iot1click-devices/2018-05-14"
+  },
+  "IoT1ClickProjects": {
+    "models": "iot1click-projects/2018-05-14"
+  },
+  "IoTAnalytics": {
+    "models": "iotanalytics/2017-11-27"
+  },
+  "IoTDataPlane": {
+    "models": "iot-data/2015-05-28",
+    "partitionsKey": null
+  },
+  "IoTDeviceAdvisor": {
+    "models": "iotdeviceadvisor/2020-09-18"
+  },
+  "IoTEvents": {
+    "models": "iotevents/2018-07-27"
+  },
+  "IoTEventsData": {
+    "models": "iotevents-data/2018-10-23"
+  },
+  "IoTFleetHub": {
+    "models": "iotfleethub/2020-11-03"
+  },
+  "IoTFleetWise": {
+    "models": "iotfleetwise/2021-06-17"
+  },
+  "IoTJobsDataPlane": {
+    "models": "iot-jobs-data/2017-09-29"
+  },
+  "IoTRoboRunner": {
+    "models": "iot-roborunner/2018-05-10"
+  },
+  "IoTSecureTunneling": {
+    "models": "iotsecuretunneling/2018-10-05"
+  },
+  "IoTSiteWise": {
+    "models": "iotsitewise/2019-12-02"
+  },
+  "IoTThingsGraph": {
+    "models": "iotthingsgraph/2018-09-06"
+  },
+  "IoTTwinMaker": {
+    "models": "iottwinmaker/2021-11-29"
+  },
+  "IoTWireless": {
+    "models": "iotwireless/2020-11-22"
+  },
+  "Ivschat": {
+    "models": "ivschat/2020-07-14"
+  },
+  "KMS": {
+    "models": "kms/2014-11-01"
+  },
+  "Kafka": {
+    "models": "kafka/2018-11-14"
+  },
+  "KafkaConnect": {
+    "models": "kafkaconnect/2021-09-14"
+  },
+  "Kendra": {
+    "models": "kendra/2019-02-03"
+  },
+  "KendraRanking": {
+    "models": "kendra-ranking/2022-10-19"
+  },
+  "Keyspaces": {
+    "models": "keyspaces/2022-02-10"
+  },
+  "Kinesis": {
+    "models": "kinesis/2013-12-02"
+  },
+  "KinesisAnalytics": {
+    "models": "kinesisanalytics/2015-08-14"
+  },
+  "KinesisAnalyticsV2": {
+    "models": "kinesisanalyticsv2/2018-05-23"
+  },
+  "KinesisVideo": {
+    "models": "kinesisvideo/2017-09-30"
+  },
+  "KinesisVideoArchivedMedia": {
+    "models": "kinesis-video-archived-media/2017-09-30"
+  },
+  "KinesisVideoMedia": {
+    "models": "kinesis-video-media/2017-09-30"
+  },
+  "KinesisVideoSignalingChannels": {
+    "models": "kinesis-video-signaling/2019-12-04"
+  },
+  "KinesisVideoWebRTCStorage": {
+    "models": "kinesis-video-webrtc-storage/2018-05-10"
+  },
+  "LakeFormation": {
+    "models": "lakeformation/2017-03-31"
+  },
+  "Lambda": {
+    "models": "lambda/2015-03-31"
+  },
+  "LambdaPreview": {
+    "models": "lambda/2014-11-11"
+  },
+  "Lex": {
+    "models": "runtime.lex/2016-11-28"
+  },
+  "LexModelBuildingService": {
+    "models": "lex-models/2017-04-19"
+  },
+  "LexModelsV2": {
+    "models": "models.lex.v2/2020-08-07"
+  },
+  "LexRuntimeV2": {
+    "models": "runtime.lex.v2/2020-08-07"
+  },
+  "LicenseManager": {
+    "models": "license-manager/2018-08-01"
+  },
+  "LicenseManagerLinuxSubscriptions": {
+    "models": "license-manager-linux-subscriptions/2018-05-10"
+  },
+  "LicenseManagerUserSubscriptions": {
+    "models": "license-manager-user-subscriptions/2018-05-10"
+  },
+  "Lightsail": {
+    "models": "lightsail/2016-11-28"
+  },
+  "LocationService": {
+    "models": "location/2020-11-19"
+  },
+  "LookoutEquipment": {
+    "models": "lookoutequipment/2020-12-15"
+  },
+  "LookoutMetrics": {
+    "models": "lookoutmetrics/2017-07-25"
+  },
+  "LookoutforVision": {
+    "models": "lookoutvision/2020-11-20"
+  },
+  "MQ": {
+    "models": "mq/2017-11-27"
+  },
+  "MTurk": {
+    "models": "mturk-requester/2017-01-17"
+  },
+  "MWAA": {
+    "models": "mwaa/2020-07-01"
+  },
+  "MachineLearning": {
+    "models": "machinelearning/2014-12-12",
+    "addPlugins": [
+      "Aws::MachineLearning::Plugins::PredictEndpoint"
+    ]
+  },
+  "Macie": {
+    "models": "macie/2017-12-19"
+  },
+  "Macie2": {
+    "models": "macie2/2020-01-01"
+  },
+  "MainframeModernization": {
+    "models": "m2/2021-04-28"
+  },
+  "ManagedBlockchain": {
+    "models": "managedblockchain/2018-09-24"
+  },
+  "ManagedGrafana": {
+    "models": "grafana/2020-08-18"
+  },
+  "MarketplaceCatalog": {
+    "models": "marketplace-catalog/2018-09-17"
+  },
+  "MarketplaceCommerceAnalytics": {
+    "models": "marketplacecommerceanalytics/2015-07-01"
+  },
+  "MarketplaceEntitlementService": {
+    "models": "entitlement.marketplace/2017-01-11"
+  },
+  "MarketplaceMetering": {
+    "models": "meteringmarketplace/2016-01-14"
+  },
+  "MediaConnect": {
+    "models": "mediaconnect/2018-11-14"
+  },
+  "MediaConvert": {
+    "models": "mediaconvert/2017-08-29"
+  },
+  "MediaLive": {
+    "models": "medialive/2017-10-14"
+  },
+  "MediaPackage": {
+    "models": "mediapackage/2017-10-12"
+  },
+  "MediaPackageVod": {
+    "models": "mediapackage-vod/2018-11-07"
+  },
+  "MediaStore": {
+    "models": "mediastore/2017-09-01"
+  },
+  "MediaStoreData": {
+    "models": "mediastore-data/2017-09-01"
+  },
+  "MediaTailor": {
+    "models": "mediatailor/2018-04-23"
+  },
+  "MemoryDB": {
+    "models": "memorydb/2021-01-01"
+  },
+  "Mgn": {
+    "models": "mgn/2020-02-26"
+  },
+  "MigrationHub": {
+    "models": "AWSMigrationHub/2017-05-31"
+  },
+  "MigrationHubConfig": {
+    "models": "migrationhub-config/2019-06-30"
+  },
+  "MigrationHubOrchestrator": {
+    "models": "migrationhuborchestrator/2021-08-28"
+  },
+  "MigrationHubRefactorSpaces": {
+    "models": "migration-hub-refactor-spaces/2021-10-26"
+  },
+  "MigrationHubStrategyRecommendations": {
+    "models": "migrationhubstrategy/2020-02-19"
+  },
+  "Mobile": {
+    "models": "mobile/2017-07-01"
+  },
+  "Neptune": {
+    "models": "neptune/2014-10-31",
+    "addPlugins": [
+      "Aws::Neptune::Plugins::CrossRegionCopying"
+    ]
+  },
+  "NetworkFirewall": {
+    "models": "network-firewall/2020-11-12"
+  },
+  "NetworkManager": {
+    "models": "networkmanager/2019-07-05"
+  },
+  "NimbleStudio": {
+    "models": "nimble/2020-08-01"
+  },
+  "OAM": {
+    "models": "oam/2022-06-10"
+  },
+  "Omics": {
+    "models": "omics/2022-11-28"
+  },
+  "OpenSearchServerless": {
+    "models": "opensearchserverless/2021-11-01"
+  },
+  "OpenSearchService": {
+    "models": "opensearch/2021-01-01"
+  },
+  "OpsWorks": {
+    "models": "opsworks/2013-02-18"
+  },
+  "OpsWorksCM": {
+    "models": "opsworkscm/2016-11-01"
+  },
+  "Organizations": {
+    "models": "organizations/2016-11-28"
+  },
+  "Outposts": {
+    "models": "outposts/2019-12-03"
+  },
+  "PI": {
+    "models": "pi/2018-02-27"
+  },
+  "Panorama": {
+    "models": "panorama/2019-07-24"
+  },
+  "Personalize": {
+    "models": "personalize/2018-05-22"
+  },
+  "PersonalizeEvents": {
+    "models": "personalize-events/2018-03-22"
+  },
+  "PersonalizeRuntime": {
+    "models": "personalize-runtime/2018-05-22"
+  },
+  "Pinpoint": {
+    "models": "pinpoint/2016-12-01"
+  },
+  "PinpointEmail": {
+    "models": "pinpoint-email/2018-07-26"
+  },
+  "PinpointSMSVoice": {
+    "models": "sms-voice/2018-09-05"
+  },
+  "PinpointSMSVoiceV2": {
+    "models": "pinpoint-sms-voice-v2/2022-03-31"
+  },
+  "Pipes": {
+    "models": "pipes/2015-10-07"
+  },
+  "Polly": {
+    "models": "polly/2016-06-10"
+  },
+  "Pricing": {
+    "models": "pricing/2017-10-15"
+  },
+  "PrivateNetworks": {
+    "models": "privatenetworks/2021-12-03"
+  },
+  "PrometheusService": {
+    "models": "amp/2020-08-01"
+  },
+  "Proton": {
+    "models": "proton/2020-07-20"
+  },
+  "QLDB": {
+    "models": "qldb/2019-01-02"
+  },
+  "QLDBSession": {
+    "models": "qldb-session/2019-07-11"
+  },
+  "QuickSight": {
+    "models": "quicksight/2018-04-01"
+  },
+  "RAM": {
+    "models": "ram/2018-01-04"
+  },
+  "RDS": {
+    "models": "rds/2014-10-31",
+    "addPlugins": [
+      "Aws::RDS::Plugins::CrossRegionCopying"
+    ],
+    "dependencies": {
+      "aws-sigv4": "~> 1.0"
+    }
+  },
+  "RDSDataService": {
+    "models": "rds-data/2018-08-01"
+  },
+  "RecycleBin": {
+    "models": "rbin/2021-06-15"
+  },
+  "Redshift": {
+    "models": "redshift/2012-12-01"
+  },
+  "RedshiftDataAPIService": {
+    "models": "redshift-data/2019-12-20"
+  },
+  "RedshiftServerless": {
+    "models": "redshift-serverless/2021-04-21"
+  },
+  "Rekognition": {
+    "models": "rekognition/2016-06-27"
+  },
+  "ResilienceHub": {
+    "models": "resiliencehub/2020-04-30"
+  },
+  "ResourceExplorer2": {
+    "models": "resource-explorer-2/2022-07-28"
+  },
+  "ResourceGroups": {
+    "models": "resource-groups/2017-11-27"
+  },
+  "ResourceGroupsTaggingAPI": {
+    "models": "resourcegroupstaggingapi/2017-01-26"
+  },
+  "RoboMaker": {
+    "models": "robomaker/2018-06-29"
+  },
+  "RolesAnywhere": {
+    "models": "rolesanywhere/2018-05-10"
+  },
+  "Route53": {
+    "models": "route53/2013-04-01",
+    "addPlugins": [
+      "Aws::Route53::Plugins::IdFix"
+    ]
+  },
+  "Route53Domains": {
+    "models": "route53domains/2014-05-15"
+  },
+  "Route53RecoveryCluster": {
+    "models": "route53-recovery-cluster/2019-12-02"
+  },
+  "Route53RecoveryControlConfig": {
+    "models": "route53-recovery-control-config/2020-11-02"
+  },
+  "Route53RecoveryReadiness": {
+    "models": "route53-recovery-readiness/2019-12-02"
+  },
+  "Route53Resolver": {
+    "models": "route53resolver/2018-04-01"
+  },
+  "S3": {
+    "models": "s3/2006-03-01",
+    "dependencies": {
+      "aws-sdk-kms": "~> 1",
+      "aws-sigv4": "~> 1.4"
+    },
+    "addPlugins": [
+      "Aws::S3::Plugins::Accelerate",
+      "Aws::S3::Plugins::ARN",
+      "Aws::S3::Plugins::BucketDns",
+      "Aws::S3::Plugins::BucketNameRestrictions",
+      "Aws::S3::Plugins::Dualstack",
+      "Aws::S3::Plugins::Expect100Continue",
+      "Aws::S3::Plugins::GetBucketLocationFix",
+      "Aws::S3::Plugins::Http200Errors",
+      "Aws::S3::Plugins::IADRegionalEndpoint",
+      "Aws::S3::Plugins::LocationConstraint",
+      "Aws::S3::Plugins::Md5s",
+      "Aws::S3::Plugins::Redirects",
+      "Aws::S3::Plugins::S3HostId",
+      "Aws::S3::Plugins::S3Signer",
+      "Aws::S3::Plugins::SseCpk",
+      "Aws::S3::Plugins::StreamingRetry",
+      "Aws::S3::Plugins::UrlEncodedKeys",
+      "Aws::S3::Plugins::SkipWholeMultipartGetChecksums"
+    ]
+  },
+  "S3Control": {
+    "models": "s3control/2018-08-20",
+    "dependencies": {
+      "aws-sigv4": "~> 1.1"
+    },
+    "addPlugins": [
+      "Aws::S3Control::Plugins::ARN",
+      "Aws::S3Control::Plugins::Dualstack",
+      "Aws::S3Control::Plugins::S3HostId"
+    ]
+  },
+  "S3Outposts": {
+    "models": "s3outposts/2017-07-25"
+  },
+  "SES": {
+    "models": "email/2010-12-01"
+  },
+  "SESV2": {
+    "models": "sesv2/2019-09-27"
+  },
+  "SMS": {
+    "models": "sms/2016-10-24"
+  },
+  "SNS": {
+    "models": "sns/2010-03-31"
+  },
+  "SQS": {
+    "models": "sqs/2012-11-05",
+    "addPlugins": [
+      "Aws::SQS::Plugins::QueueUrls",
+      "Aws::SQS::Plugins::Md5s"
+    ]
+  },
+  "SSM": {
+    "models": "ssm/2014-11-06"
+  },
+  "SSMContacts": {
+    "models": "ssm-contacts/2021-05-03"
+  },
+  "SSMIncidents": {
+    "models": "ssm-incidents/2018-05-10"
+  },
+  "SSO": {
+    "models": "sso/2019-06-10",
+    "gemName": "aws-sdk-core"
+  },
+  "SSOAdmin": {
+    "models": "sso-admin/2020-07-20"
+  },
+  "SSOOIDC": {
+    "models": "sso-oidc/2019-06-10",
+    "gemName": "aws-sdk-core"
+  },
+  "STS": {
+    "models": "sts/2011-06-15",
+    "addPlugins": [
+      "Aws::STS::Plugins::STSRegionalEndpoints"
+    ],
+    "gemName": "aws-sdk-core"
+  },
+  "SWF": {
+    "models": "swf/2012-01-25",
+    "addPlugins": [
+      "Aws::SWF::Plugins::ReadTimeouts"
+    ]
+  },
+  "SageMaker": {
+    "models": "sagemaker/2017-07-24"
+  },
+  "SageMakerFeatureStoreRuntime": {
+    "models": "sagemaker-featurestore-runtime/2020-07-01"
+  },
+  "SageMakerGeospatial": {
+    "models": "sagemaker-geospatial/2020-05-27"
+  },
+  "SageMakerMetrics": {
+    "models": "sagemaker-metrics/2022-09-30"
+  },
+  "SageMakerRuntime": {
+    "models": "runtime.sagemaker/2017-05-13"
+  },
+  "SagemakerEdgeManager": {
+    "models": "sagemaker-edge/2020-09-23"
+  },
+  "SavingsPlans": {
+    "models": "savingsplans/2019-06-28"
+  },
+  "Scheduler": {
+    "models": "scheduler/2021-06-30"
+  },
+  "Schemas": {
+    "models": "schemas/2019-12-02"
+  },
+  "SecretsManager": {
+    "models": "secretsmanager/2017-10-17"
+  },
+  "SecurityHub": {
+    "models": "securityhub/2018-10-26"
+  },
+  "SecurityLake": {
+    "models": "securitylake/2018-05-10"
+  },
+  "ServerlessApplicationRepository": {
+    "models": "serverlessrepo/2017-09-08"
+  },
+  "ServiceCatalog": {
+    "models": "servicecatalog/2015-12-10"
+  },
+  "ServiceDiscovery": {
+    "models": "servicediscovery/2017-03-14"
+  },
+  "ServiceQuotas": {
+    "models": "service-quotas/2019-06-24"
+  },
+  "Shield": {
+    "models": "shield/2016-06-02"
+  },
+  "Signer": {
+    "models": "signer/2017-08-25"
+  },
+  "SimSpaceWeaver": {
+    "models": "simspaceweaver/2022-10-28"
+  },
+  "SimpleDB": {
+    "models": "sdb/2009-04-15",
+    "legacyEndpoints": true
+  },
+  "SnowDeviceManagement": {
+    "models": "snow-device-management/2021-08-04"
+  },
+  "Snowball": {
+    "models": "snowball/2016-06-30"
+  },
+  "SsmSap": {
+    "models": "ssm-sap/2018-05-10"
+  },
+  "States": {
+    "models": "states/2016-11-23"
+  },
+  "StorageGateway": {
+    "models": "storagegateway/2013-06-30"
+  },
+  "Support": {
+    "models": "support/2013-04-15"
+  },
+  "SupportApp": {
+    "models": "support-app/2021-08-20"
+  },
+  "Synthetics": {
+    "models": "synthetics/2017-10-11"
+  },
+  "Textract": {
+    "models": "textract/2018-06-27"
+  },
+  "TimestreamQuery": {
+    "models": "timestream-query/2018-11-01"
+  },
+  "TimestreamWrite": {
+    "models": "timestream-write/2018-11-01"
+  },
+  "Tnb": {
+    "models": "tnb/2008-10-21"
+  },
+  "TranscribeService": {
+    "models": "transcribe/2017-10-26"
+  },
+  "TranscribeStreamingService": {
+    "models": "transcribe-streaming/2017-10-26"
+  },
+  "Transfer": {
+    "models": "transfer/2018-11-05"
+  },
+  "Translate": {
+    "models": "translate/2017-07-01"
+  },
+  "VoiceID": {
+    "models": "voice-id/2021-09-27"
+  },
+  "WAF": {
+    "models": "waf/2015-08-24"
+  },
+  "WAFRegional": {
+    "models": "waf-regional/2016-11-28"
+  },
+  "WAFV2": {
+    "models": "wafv2/2019-07-29"
+  },
+  "WellArchitected": {
+    "models": "wellarchitected/2020-03-31"
+  },
+  "WorkDocs": {
+    "models": "workdocs/2016-05-01"
+  },
+  "WorkLink": {
+    "models": "worklink/2018-09-25"
+  },
+  "WorkMail": {
+    "models": "workmail/2017-10-01"
+  },
+  "WorkMailMessageFlow": {
+    "models": "workmailmessageflow/2019-05-01"
+  },
+  "WorkSpaces": {
+    "models": "workspaces/2015-04-08"
+  },
+  "WorkSpacesWeb": {
+    "models": "workspaces-web/2020-07-08"
+  },
+  "XRay": {
+    "models": "xray/2016-04-12"
+  }
+}

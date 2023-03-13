@@ -1,0 +1,14 @@
+.byebug_history
+/.bundle
+/.yardoc
+/*.gem
+/api-docs
+/api-docs.zip
+/integration-test-config.json
+coverage
+/Gemfile.lock
+/TODO
+/scratchpad
+*.DS_Store
+.idea
+.ruby-version
